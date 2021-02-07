@@ -1,3 +1,52 @@
 @import "normalize.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
 @import "all.min.css";
+
+.container {
+	width: 1170px;
+	margin: auto;
+}
+
+body{
+	background-color: #ffffff;
+	font-family: 'Roboto', sans-serif;
+}
+
+section{
+	padding: 65px;
+}
+
+/*css for banner*/
+
+.jumbotron {
+	background-image: url(../image/banner1.jpg);
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0;
+}
+
+.jumbotron>.container>div {
+	float: left;
+	margin-left: 650px;
+	margin-top: 190px;
+}
+
+
+
+/*End of season sale*/
+
+#sales{
+    background-color: #8c8c8c;
+    color: white;
+}
+
+#sales > .container > p {
+    font-size: 38px;
+    font-weight: normal;
+    color: white;
+}
+
+
+
 
